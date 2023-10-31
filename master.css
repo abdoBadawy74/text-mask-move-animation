@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #e8effd 0%, #d6e3f5 100%);
+}
+.text{
+    font-size: 120px;
+    background:url("https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -4px;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+    font-family: 'Raleway', sans-serif;
+}
